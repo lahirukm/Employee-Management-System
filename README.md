@@ -1,3 +1,9 @@
+## Docker Setup
+
+This section was added as part of the group assignment to prepare the project for containerization using Docker and Docker Compose.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
