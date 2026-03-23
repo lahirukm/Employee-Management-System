@@ -1,0 +1,5 @@
+node_modules
+src/employee-backend/node_modules
+.git
+build
+npm-debug.log
