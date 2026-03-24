@@ -39,8 +39,8 @@ This project uses **GitHub Actions** for Continuous Integration.
 
 The application is deployed online.
 
-👉 **Frontend (Vercel):** https://your-frontend-url.vercel.app
-👉 **Backend (Render):** https://your-backend-url.onrender.com
+👉 **Frontend (Vercel):** [https://your-frontend-url.vercel.app](https://employee-management-system-git-main-lahirusampaths-projects.vercel.app/)
+👉 **Backend (Render):** [https://your-backend-url.onrender.com](https://employee-management-system-a513.onrender.com/)
 
 > Replace the above URLs with your actual deployed links.
 
