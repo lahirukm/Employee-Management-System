@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 
+const API_BASE_URL =
+  process.env.REACT_APP_API_URL || "http://localhost:5000";
+
 function SalaryDetails() {
   const [employeeID, setEmployeeID] = useState("");
   const [employeeName, setEmployeeName] = useState("");
@@ -25,7 +28,7 @@ function SalaryDetails() {
     };
 
     try {
-      const response = await fetch("http://localhost:5000/salary", {
+      const response = await fetch(`${API_BASE_URL}/salary`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

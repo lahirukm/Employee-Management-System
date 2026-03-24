@@ -3,6 +3,9 @@ import jsPDF from "jspdf";
 import "jspdf-autotable";
 import "./App.css";
 
+const API_BASE_URL =
+  process.env.REACT_APP_API_URL || "http://localhost:5000";
+
 function AddEmployee() {
   const [employeeID, setEmployeeID] = useState("");
   const [name, setName] = useState("");
@@ -19,7 +22,7 @@ function AddEmployee() {
   // Function to fetch employee data from the backend
   const fetchEmployees = async () => {
     try {
-      const response = await fetch("http://localhost:5000/employees");
+      const response = await fetch(`${API_BASE_URL}/employees`);
       if (!response.ok) {
         throw new Error("Failed to fetch employees");
       }
@@ -51,7 +54,7 @@ function AddEmployee() {
     };
 
     try {
-      const response = await fetch("http://localhost:5000/add-employee", {
+      const response = await fetch(`${API_BASE_URL}/add-employee`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
