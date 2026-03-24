@@ -4,9 +4,9 @@
 
 This is a full-stack Employee Management System developed using:
 
-* React (Frontend)
-* Node.js (Backend)
-* MongoDB (Database)
+- React (Frontend)
+- Node.js (Backend)
+- MongoDB (Database)
 
 The system allows users to manage employee details efficiently.
 
@@ -18,10 +18,10 @@ This project uses **GitHub Actions** for Continuous Integration.
 
 ### 🔹 CI Workflow
 
-* Automatically runs on every push to `main`
-* Installs dependencies
-* Builds the React application
-* Ensures the project runs without errors
+- Automatically runs on every push to `main`
+- Installs dependencies
+- Builds the React application
+- Ensures the project runs without errors
 
 ### 📁 Workflow File
 
@@ -31,7 +31,7 @@ This project uses **GitHub Actions** for Continuous Integration.
 
 ### ✔ Status
 
-* CI pipeline successfully runs on GitHub Actions
+- CI pipeline successfully runs on GitHub Actions
 
 ---
 
@@ -52,9 +52,9 @@ This project is containerized using Docker and Docker Compose.
 
 ### 📦 Services
 
-* Frontend → React app (Port 3000)
-* Backend → Node.js API (Port 5000)
-* Database → MongoDB (Port 27017)
+- Frontend → React app (Port 3000)
+- Backend → Node.js API (Port 5000)
+- Database → MongoDB (Port 27017)
 
 ### 🚀 Run with Docker
 
@@ -64,8 +64,9 @@ docker compose up --build
 
 ### 🌐 Access Locally
 
-* Frontend → http://localhost:3000
-* Backend → http://localhost:5000
+- Frontend → http://localhost:3000
+- Local Backend -> http://localhost:5000
+- Live Backend -> https://employee-management-system-a513.onrender.com
 
 ---
 
@@ -89,31 +90,30 @@ my-app/
 
 ## ⚙️ Technologies Used
 
-* React
-* Node.js
-* MongoDB
-* Docker
-* GitHub Actions
+- React
+- Node.js
+- MongoDB
+- Docker
+- GitHub Actions
 
 ---
 
 ## 🎯 Key Features
 
-* Employee management system
-* Full-stack application
-* Containerized using Docker
-* Automated CI pipeline with GitHub Actions
-* Cloud deployment (Vercel + Render)
+- Employee management system
+- Full-stack application
+- Containerized using Docker
+- Automated CI pipeline with GitHub Actions
+- Cloud deployment (Vercel + Render)
 
 ---
 
 ## 👨‍💻 Authors
 
 - **K.M.L Sampath**  
-  ITBIN-2211-0277  
+  ITBIN-2211-0277
 
 - **M.N.S.K Bandara**  
-  ITBIN-2211-0152  
-
+  ITBIN-2211-0152
 
 Lahiru Sampath
